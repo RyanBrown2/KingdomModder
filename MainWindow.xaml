@@ -12,19 +12,45 @@
 		TextElement.FontSize="14"
 		FontFamily="{materialDesign:MaterialDesignFont}"
 		Title="KingdomModder" Height="450" Width="800">
+    <Window.DataContext>
+        <local:MainViewModel />
+    </Window.DataContext>
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+    </Window.Resources>
+	<Window.CommandBindings>
+		<CommandBinding Command="Open" Executed="OpenFile" CanExecute="CommonCommandBinding_CanExecute" />
+	</Window.CommandBindings>
 	<DockPanel>
 		<ToolBarTray DockPanel.Dock="Top">
 			<ToolBar>
-                <Menu>
-                    <MenuItem Header="File">
-                        <MenuItem Header="New" />
-                        <MenuItem Header="Open" />
-                    </MenuItem>
-                
-                <MenuItem Header="Edit">
-                </MenuItem>
-                </Menu>
-            </ToolBar>
+				<Menu>
+					<MenuItem Header="File">
+						<MenuItem Command="Open" Header="Open" />
+					</MenuItem>
+				<MenuItem Header="Edit">
+				</MenuItem>
+				</Menu>
+			</ToolBar>
 		</ToolBarTray>
+        <Grid x:Name="gridMain" Visibility="{Binding IsFileOpen, Converter={StaticResource BooleanToVisibilityConverter}}">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0">
+                
+                
+            </Grid>
+
+            <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+
+            <Grid Grid.Column="2">
+
+                
+            </Grid>
+        </Grid>
 	</DockPanel>
 </Window>
