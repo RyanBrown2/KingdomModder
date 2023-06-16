@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingdomModder", "KingdomModder.csproj", "{E19D34BE-0347-4036-BCB0-21130DB3648E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingdomModder", "KingdomModder\KingdomModder.csproj", "{505E3483-D833-479E-B964-02B998C81E3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E19D34BE-0347-4036-BCB0-21130DB3648E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E19D34BE-0347-4036-BCB0-21130DB3648E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E19D34BE-0347-4036-BCB0-21130DB3648E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E19D34BE-0347-4036-BCB0-21130DB3648E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{505E3483-D833-479E-B964-02B998C81E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505E3483-D833-479E-B964-02B998C81E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505E3483-D833-479E-B964-02B998C81E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505E3483-D833-479E-B964-02B998C81E3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0B48CED2-9813-4564-B27F-DDA1689E51FB}
+		SolutionGuid = {2A508332-EC98-4B75-AE21-A30BEAAA5CB2}
 	EndGlobalSection
 EndGlobal

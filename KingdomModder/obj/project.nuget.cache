@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "cnAQ/7KjcwpEEDIBhimOsayauuZzzm6Q/bGicNe5pY0nGp3b1xxxPoVT7KtQniCbgVXVjFh948Cd/xSN5nZuRg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\brownrl\\Git\\KingdomModder\\KingdomModder\\KingdomModder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brownrl\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
+    "C:\\Users\\brownrl\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
+    "C:\\Users\\brownrl\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\brownrl\\.nuget\\packages\\showmethexaml\\2.0.0\\showmethexaml.2.0.0.nupkg.sha512",
+    "C:\\Users\\brownrl\\.nuget\\packages\\showmethexaml.msbuild\\2.0.0\\showmethexaml.msbuild.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
